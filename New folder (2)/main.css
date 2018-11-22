@@ -1,0 +1,165 @@
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    background: #fff;
+    height: 100%;
+    margin: 0;
+}
+
+
+.hbg{
+    position: relative;
+    background-image: -webkit-linear-gradient(45deg,#548fbc,#7ca0bc,#979FC4,#B1B7D1, #B89FB5, #D1B1C8, #BF828F, #D67974, #C6695B, #C66455, #C66147);
+    background-image: -moz-linear-gradient(45deg,#548fbc,#7ca0bc,#979FC4,#B1B7D1, #B89FB5, #D1B1C8, #BF828F, #D67974, #C6695B, #C66455, #C66147);
+    background-image: linear-gradient(45deg,#548fbc,#7ca0bc,#979FC4,#B1B7D1, #B89FB5, #D1B1C8, #BF828F, #D67974, #C6695B, #C66455, #C66147);
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+
+    -webkit-animation: Gradient 20s ease infinite;
+    -moz-animation: Gradient 20s ease infinite;
+    animation: Gradient 20s ease infinite;
+
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #505a5e;
+}
+ .caption  span.border {
+     background-color: #505a5e;
+     color: #fff;
+     padding: 10px;
+     font-size: 5vw;
+     letter-spacing: 5px;
+ }
+
+ .bg2, .bg3 {
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .bg2 {
+    background-image: url("assets/bg2.jpg");
+    min-height: 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+ }
+
+ .bg3 {
+    background-image: url("assets/bg3.jpg");
+    min-height: 60%;
+ }
+
+ .bg2 .text {
+    background-color: #fff;
+    color: black;
+    font-size: 8vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    text-align: center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+
+ }
+
+ .bg3 .text {
+    background-color: #ff768f;
+    color: black;
+    font-size: 10vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Keyframes
+*/
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    25% {
+        background-position: 50% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    75% {
+        background-position: 50% 50% 
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    25% {
+        background-position: 50% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    75% {
+        background-position: 50% 50% 
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    25% {
+        background-position: 50% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    75% {
+        background-position: 50% 50% 
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+
